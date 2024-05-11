@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "odiamuslonon@gmail.com",
+    "password": "astrale@@",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -17,15 +17,15 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61553436962117"
+    "100080855610572"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ",
-  "prefix": "∆",
+  "nickNameBot": "ↈ༈ Odd ༈ↈ",
+  "prefix": "*",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
