@@ -34,15 +34,15 @@ module.exports = {
 			noAdmin: "Hiện tại bot chưa có admin nào"
 		},
 		en: {
-			missingMessage: "𝗤𝘂𝗲𝗹 𝗲𝘀𝘁 𝘁𝗼𝗻 𝗽𝘂𝘁𝗮𝗶𝗻 𝗱𝗲 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 ....? 🌹",
+			missingMessage: "Que puis-je pour toi ma grande ? ❄️",
 			sendByGroup: "",
 			sendByUser: "",
 			content: "\n_______________________\n\n%1\n\n_____________________ ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ",
 			success: "Sent your message to %1 admin successfully!\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
-			reply: "_________________________\n\n%2\n\n______________________ ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ",
-			replySuccess: "𝗚𝗿𝗮𝗰𝗲 𝗮 𝗹'𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗮𝗻𝗰𝗲 𝗱𝗲 𝗺𝗼𝗻 𝗰𝗿𝗲𝗮𝘁𝗲𝘂𝗿 🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹𝘁𝗼𝗻 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗮 𝗲𝘁𝗲 𝗲𝗻𝘃𝗼𝘆𝗲 𝗮𝘃𝗲𝗰 𝘀𝘂𝗰𝗰𝗲𝘀 !",
-			feedback: "─────────────────\n\n %4\n\n───────────────── ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ",
+			reply: "_________________________\n\n%2\n\n___________________ ØđɨȺmᵾs Łønøn💝",
+			replySuccess: "Grace a l'intelligence de mon créateur ØđɨȺmᵾs Łønøn💝 ton message a été envoyé avec succès !",
+			feedback: "─────────────────\n\n %4\n\n───────────────── ØđɨȺmᵾs Łønøn💝",
 			replyUserSuccess: "Sent your reply to user successfully!",
 			noAdmin: "Bot has no admin at the moment"
 		}
@@ -56,7 +56,7 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹=="
+		const msg = "==ØđɨȺmᵾs Łønøn💝=="
 			+ `\n- User Name: 🧸${senderName}🧸`
 			+ `\n- User ID: 👑${senderID}👑`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
