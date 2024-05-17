@@ -31,7 +31,9 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹 \n____________________\n 𝙌𝙪𝙚 𝙫𝙚𝙪𝙭 𝙩𝙪 𝙢𝙤𝙧𝙩𝙚𝙡𝙡𝙚............?  ");
+        await message.reply("ØđɨȺmᵾs Łønøn💝 \n__________________\n ✿.•❀•.•❀•.✿
+Hey, je m'appelle  Snøw🪶 pose-moi des questions chérie ✏, je me ferai un plaisir de te répondre 🤭.
+✿.•❀•.•❀•.✿  ");
         return;
       }
 
@@ -40,10 +42,10 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹
+    await message.reply({ body: `ØđɨȺmᵾs Łønøn💝
 _______________________
 ${answer}
-𝘿𝙍𝘼𝘾𝙐𝙇𝘼 💢`,
+ØđɨȺmᵾs Łønøn 💢`,
 });
 
    } catch (error) {
