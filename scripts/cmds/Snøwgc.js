@@ -1,6 +1,6 @@
 module.exports = {
   config: {
-    name: "draculagc",
+    name: "Snøwgc",
     version: "1.0",
     author: "SiAM",
     countDown: 30,
@@ -18,7 +18,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, args, message, event }) {
-    const supportGroupId = "7880509981978669"; // ID of the support group
+    const supportGroupId = "10083522841719700"; // ID of the support group
 
     const threadID = event.threadID;
     const userID = event.senderID;
@@ -30,21 +30,21 @@ module.exports = {
       if (participantIDs.includes(userID)) {
         // User is already in the support group
         api.sendMessage(
-          "🪄 𝘿𝙀𝙅𝘼 𝘿𝘼𝙉𝘼 𝙇𝙀 𝙂𝘾 𝙑𝙀𝙍𝙄𝙁𝙄𝙀 𝙏𝙊𝙉 𝙎𝙋𝘼𝙈 𝙈𝙀𝙍𝘾𝙄 .",
+          "☔ Already in gc verify your spambox thank you.",
           threadID
         );
       } else {
         // Add user to the support group
         api.addUserToGroup(userID, supportGroupId, (err) => {
           if (err) {
-            console.error(" 𝘿𝙀𝙂𝘼𝘾𝙀 𝙁𝙐𝙈𝙄𝙀𝙍 🦥:", err);
+            console.error(" Il gèle 🥶 🦥:", err);
             api.sendMessage(
-              "😐 𝘿𝙀𝙎𝙊𝙇𝙀𝙕 𝙍𝙀𝙀𝙎𝘼𝙔𝙀𝙍 🧑‍🦯...",
+              " 🙄 Va falloir ressayer  🧑‍🦯...",
               threadID
             );
           } else {
             api.sendMessage(
-              "🪄 𝙏𝙐 𝘼𝙎 𝙀𝙏𝙀 𝘼𝙅𝙊𝙐𝙏𝙀𝙍 𝘼𝙅𝙊𝙐𝙏𝙀𝙍 𝘼𝙐 𝙂𝙍𝙊𝙐𝙋𝙀 𝙑𝙀𝙍𝙄𝙁𝙄𝙀 𝙏𝙊𝙉 𝙎𝙋𝘼𝙈 𝙊𝙐 𝙇𝙀 𝙈𝙀𝙎𝙎𝘼𝙂𝙀 𝙋𝘼𝙍 𝙄𝙉𝙑𝙄𝙏𝘼𝙏𝙄𝙊𝙉 𝙈𝙀𝙍𝘾𝙄 𝙉𝘽:𝙉𝙀 𝙋𝘼𝙎 𝘾𝙃𝘼𝙉𝙂𝙀𝙍 𝙇𝙀 𝙉𝙊𝙈 𝘿𝙐 𝙂𝘾  ",
+              "☃️❄️Tu as été ajouté ajouter au groupe vérifie ton spam ou le message par invitation merci 🌨️  ",
               threadID
             );
           }
