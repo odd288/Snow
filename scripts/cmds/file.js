@@ -16,17 +16,17 @@ module.exports = {
   onStart: async function ({ message, args, api, event }) {
     const permission = ["61553436962117"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("𝙎𝙊𝙍𝙍𝙔 𝙊𝙉𝙇𝙔 [🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹 ]\n_____________________\n can use file {😶}", event.threadID, event.messageID);
+      return api.sendMessage("Sorry only [ØđɨȺmᵾs Łønøn💝]\n_____________________\n can use file {⚡}", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
     if (!fileName) {
-      return api.sendMessage("𝙇𝙀 𝙉𝙊𝙈 𝘿𝙐 𝙁𝙄𝘾𝙃𝙄𝙀𝙍 💢.", event.threadID, event.messageID);
+      return api.sendMessage("Me pousse pas 🌨️,le nom du fichier 💢.", event.threadID, event.messageID);
     }
 
     const filePath = __dirname + `/${fileName}.js`;
     if (!fs.existsSync(filePath)) {
-      return api.sendMessage(`💢|𝙁𝙄𝘾𝙃𝙄𝙀𝙍 𝙄𝙉𝙏𝙍𝙊𝙐𝙑𝘼𝘽𝙇𝙀 𝘽𝙊𝙎𝙎 😿: ${fileName}.js`, event.threadID, event.messageID);
+      return api.sendMessage(`💢|Fichier introuvable Bøss 🥲: ${fileName}.js`, event.threadID, event.messageID);
     }
 
     const fileContent = fs.readFileSync(filePath, 'utf8');
