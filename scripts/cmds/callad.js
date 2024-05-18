@@ -42,7 +42,7 @@ module.exports = {
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
 			reply: "_________________________\n\n%2\n\n___________________ ØđɨȺmᵾs Łønøn💝",
 			replySuccess: "Grace a l'intelligence de mon créateur ØđɨȺmᵾs Łønøn💝 ton message a été envoyé avec succès !",
-			feedback: "─────────────────\n\n %4\n\n───────────────── ØđɨȺmᵾs Łønøn💝",
+			feedback: "\n\n %4\n\n ØđɨȺmᵾs Łønøn💝",
 			replyUserSuccess: "Sent your reply to user successfully!",
 			noAdmin: "Bot has no admin at the moment"
 		}
