@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼🧛\n\n あなたの質問 .....?  ");
+        await message.reply("Odiamus Lonon\n\n Hey,je m'appelle Snøw❄️ que puis-je pour toi .....?  ");
         return;
       }
 
@@ -40,10 +40,10 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼🧛
+    await message.reply({ body: `Odiamus Lonon
 _______________________
 ${answer}
-ドラキュラ 💢`,
+Odiamus Lonon 💢`,
 });
 
    } catch (error) {
