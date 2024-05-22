@@ -31,9 +31,9 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("ØđɨȺmᵾs Łønøn💝 \n__________________\n ✿.•❀•.•❀•.✿
-Hey, je m'appelle  Snøw🪶 pose-moi des questions chérie ✏, je me ferai un plaisir de te répondre 🤭.
-✿.•❀•.•❀•.✿  ");
+        await message.reply("ØđɨȺmᵾs Łønøn💝\n\n ✿.•❀•.•❀•.✿
+Hey, je m'appelle  Snøw🪶 pose-moi des questions chérie ✏, je me ferai un plaisir de te répondre 🤭
+  .✿.•❀•.•❀•.✿  ");
         return;
       }
 
