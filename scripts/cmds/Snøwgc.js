@@ -30,21 +30,21 @@ module.exports = {
       if (participantIDs.includes(userID)) {
         // User is already in the support group
         api.sendMessage(
-          "☔ Already in gc verify your spambox thank you.",
+          "☔You are already in the group please look in your chat message.",
           threadID
         );
       } else {
         // Add user to the support group
         api.addUserToGroup(userID, supportGroupId, (err) => {
           if (err) {
-            console.error(" Il gèle 🥶 🦥:", err);
+            console.error("It's freezing 🥶 🦥:", err);
             api.sendMessage(
-              " 🙄 Va falloir ressayer  🧑‍🦯...",
+              " ☃️ We'll have to try again🧑‍🦯...",
               threadID
             );
           } else {
             api.sendMessage(
-              "☃️❄️Tu as été ajouté ajouter au groupe vérifie ton spam ou le message par invitation merci 🌨️  ",
+              "☃️❄️You have been added to the group check your spam or the message by invitation thank you 🌨 ",
               threadID
             );
           }
