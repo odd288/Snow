@@ -109,7 +109,7 @@ module.exports = {
   ⭓❄️ ${usage}
   ⭓❄️ Notes
   ⭓❄️ The content inside <XXXX> can be changed 
-  ⭓❄️ The content inside [a|b|c] is a or b or c \n_____________________\n 🔖 edite by : ØđɨȺmᵾs Łønøn💝
+  ⭓❄️ The content inside [a|b|c] is a or b or c \n____________________\n 🔖 edite by : ØđɨȺmᵾs Łønøn💝
   `;
 
         await message.reply(response);
