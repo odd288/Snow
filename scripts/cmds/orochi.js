@@ -58,8 +58,7 @@ module.exports = {
     } catch (error) {
       console.error(`Failed to get answer: ${error.message}`);
       api.sendMessage(
-        `ØđɨȺmᵾs Łønøn💝 \n\n${error.message}.\n\nYou can try typing your question again or resending it, as there might be a bug from the 𝙧
-        server that's causing the problem. It might resolve the issue.`,
+        `ØđɨȺmᵾs Łønøn💝 \n\n${error.message}.\n\nYou can try typing your question again or resending it, as there might be a bug from the server that's causing the problem. It might resolve the issue.`,
         event.threadID
       );
     }
