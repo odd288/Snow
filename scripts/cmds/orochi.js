@@ -1,11 +1,11 @@
  const axios = require('axios');
 
 const Prefixes = [
-  'zeno',
-  'zeus zeno',
+  'Odd',
+  'snow',
   'bot',
-  'zeno hy',
-  'darkness',
+  'snow hy',
+  'ØđɨȺmᵾs Łønøn',
 ];
 
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
 
       if (prompt === '') {
         await message.reply(
-          "🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹 \n\n𝙔𝙤 𝙢𝙖𝙣 𝙘𝙤𝙢𝙢𝙚𝙣𝙩 𝙥𝙪𝙞𝙨 𝙟𝙚 𝙩'𝙖𝙞𝙙𝙚𝙧 𝙖𝙪𝙟𝙤𝙪𝙧𝙙𝙝𝙪𝙞?."
+          "ØđɨȺmᵾs Łønøn💝 \n\nYo how can I help you today ?."
         );
         return;
       }
@@ -58,7 +58,8 @@ module.exports = {
     } catch (error) {
       console.error(`Failed to get answer: ${error.message}`);
       api.sendMessage(
-        `🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹 \n\n${error.message}.\n\nYou 𝙘𝙖𝙣 𝙩𝙧𝙮 𝙩𝙮𝙥𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙦𝙪𝙚𝙨𝙩𝙞𝙤𝙣 𝙖𝙜𝙖𝙞𝙣 𝙤𝙧 𝙧𝙚𝙨𝙚𝙣𝙙𝙞𝙣𝙜 𝙞𝙩, 𝙖𝙨 𝙩𝙝𝙚𝙧𝙚 𝙢𝙞𝙜𝙝𝙩 𝙗𝙚 𝙖 𝙗𝙪𝙜 𝙛𝙧𝙤𝙢 𝙩𝙝𝙚 𝙨𝙚𝙧𝙫𝙚𝙧 𝙩𝙝𝙖𝙩'𝙨 𝙘𝙖𝙪𝙨𝙞𝙣𝙜 𝙩𝙝𝙚 𝙥𝙧𝙤𝙗𝙡𝙚𝙢. 𝙄𝙩 𝙢𝙞𝙜𝙝𝙩 𝙧𝙚𝙨𝙤𝙡𝙫𝙚 𝙩𝙝𝙚 𝙞𝙨𝙨𝙪𝙚.`,
+        `ØđɨȺmᵾs Łønøn💝 \n\n${error.message}.\n\nYou can try typing your question again or resending it, as there might be a bug from the 𝙧
+        server that's causing the problem. It might resolve the issue.`,
         event.threadID
       );
     }
