@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("ØđɨȺmᵾs Łønøn💝\n\nQue pui-je pour toi ? ");
+        await message.reply("ØđɨȺmᵾs Łønøn💝\n\nQue puis-je pour toi ? ");
         return;
       }
 
