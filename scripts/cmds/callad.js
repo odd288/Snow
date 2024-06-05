@@ -37,11 +37,11 @@ module.exports = {
 			missingMessage: "Que puis-je pour toi ma grande ? ❄️",
 			sendByGroup: "",
 			sendByUser: "",
-			content: "\n_______________________\n\n%1\n\n_____________________ ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ",
+			content: "\n_______________________\n\n%1\n\n_____________________ØđɨȺmᵾs Łønøn💝",
 			success: "Sent your message to %1 admin successfully!\n%2",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
 			reply: "_________________________\n\n%2\n\n___________________ ØđɨȺmᵾs Łønøn💝",
-			replySuccess: "Grace a l'intelligence de mon créateur ØđɨȺmᵾs Łønøn💝 ton message a été envoyé avec succès !",
+			replySuccess: " Ton message a été envoyé avec succès ☃️ !",
 			feedback: "\n\n %4\n\n ØđɨȺmᵾs Łønøn💝",
 			replyUserSuccess: "Sent your reply to user successfully!",
 			noAdmin: "Bot has no admin at the moment"
